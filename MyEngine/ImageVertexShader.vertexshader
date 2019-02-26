@@ -1,0 +1,15 @@
+#version 330 core
+layout(location = 0) in vec3 vertexPosition_modelspace;
+layout(location = 1) in vec2 vertexUV;
+
+uniform mat4 myMatrix;			// ¸ðµ¨°ú ºä, ÇÁ·ÎÁ§¼Ç ´Ù °öÇÑ Çà·Ä
+uniform vec4 myColor;
+out vec2 UV;
+out vec4 subColor;
+void main()
+{
+	gl_Position = myMatrix * vec4(vertexPosition_modelspace,1);
+
+	UV = vertexUV;
+	subColor = myColor;
+}

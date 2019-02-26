@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{9c8b793d-ba6d-4b70-b716-c7ea576d89c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Component">
+      <UniqueIdentifier>{4338b5d3-dd5c-4e1f-b313-15b3c62b35cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{ca11e771-6389-4de1-84fa-af673971dad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{6d8cb870-1dbc-4eb1-b0ab-685030432d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enemys">
+      <UniqueIdentifier>{7d04b9dc-568f-45c9-8c32-d3c2a77abadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Scene">
+      <UniqueIdentifier>{54b1c9a5-e6f2-40e9-81b9-994df07a07c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheMiner">
+      <UniqueIdentifier>{b6225c22-d3a3-42a5-aeef-abdb5aeb8862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheMiner\Scene">
+      <UniqueIdentifier>{9ddab824-c164-4bc9-8837-5593efd82f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheMiner\System">
+      <UniqueIdentifier>{349ce182-d41b-439d-ae6a-9fd6f2918bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheMiner\Gun">
+      <UniqueIdentifier>{2da9a060-ffa3-4445-ac34-46cae2a7af35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheMiner\Block">
+      <UniqueIdentifier>{d96da227-d468-4d99-98e6-dacef01a5130}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Component.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody2D.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Squad.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="MovePattern.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Squad_.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPattern.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GalagaNumber.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GalagaUi.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaves.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundData.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>Logic\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Logic\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Goei.cpp">
+      <Filter>Logic\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Jako.cpp">
+      <Filter>Logic\Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Logic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StarParticle.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Logic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MinerTestScene.cpp">
+      <Filter>TheMiner\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraC.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="M_Player.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics2D.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySlot.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="MBullet.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="PistolBullet.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultGun.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenButton.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Follow.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCastHit.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MyContactListener.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitTrap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorAnimation.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeAnimation.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBlockTxtEffect.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="M_Score.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCreator.cpp">
+      <Filter>TheMiner\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackItemBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="InvincibilityBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeItemBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedItemBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainBullet.cpp">
+      <Filter>TheMiner</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBlock.cpp">
+      <Filter>TheMiner\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="HittedManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sniper.cpp">
+      <Filter>TheMiner\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTarget.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLoop.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody2D.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MovePattern.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad_.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPattern.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GalagaNumber.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GalagaUi.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaves.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>Logic\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Logic\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Goei.h">
+      <Filter>Logic\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Jako.h">
+      <Filter>Logic\Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Logic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StarParticle.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Logic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MinerTestScene.h">
+      <Filter>TheMiner\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraC.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="M_Player.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics2D.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySlot.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="MBullet.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="PistolBullet.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultGun.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenButton.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Follow.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastHit.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MyContactListener.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitTrap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorAnimation.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeAnimation.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBlockTxtEffect.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="M_Score.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCreator.h">
+      <Filter>TheMiner\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackItemBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="InvincibilityBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeItemBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedItemBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainBullet.h">
+      <Filter>TheMiner</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBlock.h">
+      <Filter>TheMiner\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="HittedManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sniper.h">
+      <Filter>TheMiner\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBlock.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTarget.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinBlock.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestFragmentShader.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="TestVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="ImageVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="ImageFragmentShader.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="LineVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="LineFragmentShader.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="AddColorVertexShader.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="AddColorFragmentShader.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
